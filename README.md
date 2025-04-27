@@ -1,16 +1,42 @@
-# apique_mobile_app
+# Apique mobile app
 
-A new Flutter project.
+This is a mobile application built with [Flutter](https://flutter.dev/).
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+- Flutter SDK >= 3.0.0
+- Dart SDK >= 2.18
+- Android Studio or VS Code (with Flutter plugin)
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Follow these steps to set up the project locally:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1. Clone the repository
+
+git clone https://github.com/yusron-alamsyah/apique-mobile-app.git
+cd your-flutter-project
+
+### 2. Install Flutter dependencies
+
+flutter pub get
+
+### 3. Run the app in development mode
+
+For Android:
+
+flutter run
+
+For iOS (macOS only):
+
+flutter run --ios
+
+### 4. Build for production
+
+For Android:
+
+flutter build apk
+
+For iOS (macOS only):
+
+flutter build ios
